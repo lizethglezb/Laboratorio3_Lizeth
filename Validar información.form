@@ -1,0 +1,153 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.8.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "70f83fd"
+  },
+  "schemaVersion": 19,
+  "id": "Form_4udefjz",
+  "components": [
+    {
+      "text": "# Coloca tu información",
+      "type": "text",
+      "layout": {
+        "row": "Row_1nzkoiv",
+        "columns": null
+      },
+      "id": "Field_11ju75r"
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vym9qh",
+        "columns": null
+      },
+      "id": "Field_09ac7vr",
+      "key": "nombre",
+      "validate": {
+        "required": true
+      },
+      "readonly": true
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Fecha de nacimiento",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_10cecv6",
+        "columns": null
+      },
+      "id": "Field_1e5jm29",
+      "key": "fechaNacimiento",
+      "validate": {
+        "required": true
+      },
+      "readonly": true
+    },
+    {
+      "label": "Telefono",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10cecv6",
+        "columns": null
+      },
+      "id": "Field_1rsncvy",
+      "key": "telefono",
+      "validate": {
+        "required": true
+      },
+      "readonly": true
+    },
+    {
+      "label": "Correo Electrónico",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10sa6al",
+        "columns": null
+      },
+      "id": "Field_09qqjr9",
+      "key": "correo",
+      "validate": {
+        "required": true
+      },
+      "readonly": true
+    },
+    {
+      "label": "Edad",
+      "values": [
+        {
+          "label": "Menor de 18 años",
+          "value": "menor18"
+        },
+        {
+          "label": "Mayor de 18 años",
+          "value": "mayor18"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1xhmsve",
+        "columns": null
+      },
+      "id": "Field_08371x2",
+      "key": "edad",
+      "validate": {
+        "required": true
+      },
+      "readonly": true
+    },
+    {
+      "label": "Escolaridad",
+      "values": [
+        {
+          "label": "Estudiante",
+          "value": "estudiante"
+        },
+        {
+          "label": "No Estudiante",
+          "value": "noEstudiante"
+        }
+      ],
+      "type": "radio",
+      "layout": {
+        "row": "Row_1xhmsve",
+        "columns": null
+      },
+      "id": "Field_19xdedb",
+      "key": "escolaridad",
+      "validate": {
+        "required": true
+      },
+      "readonly": true
+    },
+    {
+      "label": "Cliente VIP",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1yovv8t",
+        "columns": null
+      },
+      "id": "Field_1p1gtiw",
+      "key": "tipoCliente",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "label": "Dato engagement score ",
+      "type": "number",
+      "layout": {
+        "row": "Row_1yovv8t",
+        "columns": null
+      },
+      "id": "Field_0n7j8ng",
+      "key": "engagementScore",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}
