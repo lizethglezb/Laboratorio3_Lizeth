@@ -3,7 +3,7 @@
   <bpmn:collaboration id="Collaboration_01aafha">
     <bpmn:participant id="Participant_1s7ri3v" name="Evaluación de Upgrade" processRef="Process_0ftzx91" />
   </bpmn:collaboration>
-  <bpmn:process id="Process_0ftzx91" name="LabClase3" isExecutable="true"><bpmn:extensionElements><zeebe:versionTag value="1.0"></zeebe:versionTag></bpmn:extensionElements>
+  <bpmn:process id="Process_0ftzx91" name="LabClase3" isExecutable="true"><bpmn:extensionElements><zeebe:versionTag value="1.1"></zeebe:versionTag></bpmn:extensionElements>
     <bpmn:laneSet id="LaneSet_0zsahi9">
       <bpmn:lane id="Lane_1p0z34j" name="Usuario">
         <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
